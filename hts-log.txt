@@ -1,0 +1,33 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 01 Dec 2025 11:09:03 at http://themetechmount.net/opencart/jwellix/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://themetechmount.net/opencart/jwellix/ -O1 "C:\My Web Sites\Jewellery" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:15:22	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/index.php?route=information/blogger/blogs (from themetechmount.net/opencart/jwellix/)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/call.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/cms-banner-icon.svg (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/cms-banner-icon-hover.svg (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/category.jpg (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/blog-link.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/offerbg.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/offerbg1.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/offerbg2.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/bg3.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/bg4.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/product_bg.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/stylesheet.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/javascript/jquery/owl-carousel/owl.video.play.png (from https://themetechmount.net/opencart/jwellix/catalog/view/javascript/jquery/owl-carousel/owl.carousel.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/fancybox_sprite.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/themetechmount_css/custom.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/fancybox_loading.gif (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/themetechmount_css/custom.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/blank.gif (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/themetechmount_css/custom.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/fancybox_overlay.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/themetechmount_css/custom.css)
+11:16:32	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/image/themeimage/zoom.png (from https://themetechmount.net/opencart/jwellix/catalog/view/theme/jwellix/stylesheet/themetechmount_css/custom.css)
+11:19:26	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link s7.addthis.com/js/300/addthis_widget.js (from https://themetechmount.net/opencart/jwellix/index.php?route=product/product&product_id=50)
+11:19:27	Error: 	"Not Found" (404) at link https://themetechmount.net/opencart/jwellix/index.php?route=common/cart/info%20ul%20li (from https://themetechmount.net/opencart/jwellix/index.php?route=product/product&product_id=50)
+11:21:09	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link s7.addthis.com/js/300/addthis_widget.js (from https://themetechmount.net/opencart/jwellix/index.php?route=product/product&product_id=50)
+11:21:39	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link s7.addthis.com/js/300/addthis_widget.js (from https://themetechmount.net/opencart/jwellix/index.php?route=product/product&product_id=50)
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 minutes 37 seconds : 952 links scanned, 928 files written (55813924 bytes overall) [56282770 bytes received at 68889 bytes/sec], 7912 bytes transferred using HTTP compression in 1 files, ratio 33%, 2.0 requests per connection
+(20 errors, 2 warnings, 0 messages)

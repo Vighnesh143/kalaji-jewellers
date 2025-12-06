@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+themetechmount.net	TRUE	/	FALSE	1999999999	language	en-gb
+themetechmount.net	TRUE	/	FALSE	1999999999	currency	USD
+1map.com	TRUE	/	FALSE	1999999999	_b	1764567912.568.37557.291142|f556e901667f41cf164afd1d3a58813a
+themetechmount.net	TRUE	/	FALSE	1999999999	OCSESSID	d12c7ea87e9c3157eefbe585f9
+
