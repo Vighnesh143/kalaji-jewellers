@@ -9717,7 +9717,8 @@ column-left {
 	}
 	
 	#logo .img-responsive {
-		max-height: 55px;
+		margin-top: -5px;
+		max-height: 57px;
 	}
 	
 	#accordion .panel-body {
