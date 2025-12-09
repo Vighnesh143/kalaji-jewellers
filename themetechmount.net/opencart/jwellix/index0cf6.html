@@ -162,7 +162,7 @@
 		<div class="container">	
 	
 			<div class="header-logo">
-				<div id="logo"><a href="index9328.html?route=common/home"><img src="image/catalog/kalaji new.png" title="Kalaji" alt="Kalaji" class="img-responsive" /></a>				</div>
+				<div id="logo"><a href="index9328.html?route=common/home"><img src="image/catalog/kalaji new.png" title="Kalaji" alt="Kalaji" class="img-responsive" style="height: 90px; width: 95px; margin-left: 35px;margin-top: -7px;"/></a>				</div>
 			</div>
 			
 			<div class="dropdown ttm_search"><div id="search">
@@ -1532,58 +1532,37 @@ jQuery(window).resize(function() {quickbox();});
    //});
    
    
-   $(document).ready(function() {
-   if ($(window).width() > 767) {
-   		$("#tmzoom").elevateZoom({
-   				
-   				gallery:'additional-carousel',
-   				//inner zoom				 
-   								 
-   				zoomType : "inner", 
-   				cursor: "crosshair" 
-   				
-   				/*//tint
-   				
-   				tint:true, 
-   				tintColour:'#F90', 
-   				tintOpacity:0.5
-   				
-   				//lens zoom
-   				
-   				zoomType : "lens", 
-   				lensShape : "round", 
-   				lensSize : 200 
-   				
-   				//Mousewheel zoom
-   				
-   				scrollZoom : true*/
-   				
-   				
-   			});
-   		var z_index = 0;
-        			    		
-        			    		$(document).on('click', '.thumbnail', function () {
-        			    		  $('.thumbnails').magnificPopup('open', z_index);
-        			    		  return false;
-        			    		});
-   			    		
-        			    		$('.additional-carousel a').click(function() {
-        			    			var smallImage = $(this).attr('data-image');
-        			    			var largeImage = $(this).attr('data-zoom-image');
-        			    			var ez =   $('#tmzoom').data('elevateZoom');	
-        			    			$('.thumbnail').attr('href', largeImage);  
-        			    			ez.swaptheimage(smallImage, largeImage); 
-        			    			z_index = $(this).index('.additional-carousel a');
-        			    			return false;
-        			    		});
-   			
-   	}else{
-   		$(document).on('click', '.thumbnail', function () {
-   		$('.thumbnails').magnificPopup('open', 0);
-   		return false;
-   		});
-   	}
-   });
+  $(document).ready(function() {
+    if ($(window).width() > 767) {
+      $("#tmzoom").elevateZoom({
+        gallery: 'additional-carousel',
+        zoomType: "inner",
+        cursor: "crosshair"
+      });
+
+      var z_index = 0;
+
+      $(document).on('click', '.thumbnail', function () {
+        $('.thumbnails').magnificPopup('open', z_index);
+        return false;
+      });
+
+      $('.additional-carousel a').click(function() {
+        var smallImage = $(this).attr('data-image');
+        var largeImage = $(this).attr('data-zoom-image');
+        var ez = $('#tmzoom').data('elevateZoom');
+        $('.thumbnail').attr('href', largeImage);
+        ez.swaptheimage(smallImage, largeImage);
+        z_index = $(this).index('.additional-carousel a');
+        return false;
+      });
+    } else {
+      $(document).on('click', '.thumbnail', function () {
+        $('.thumbnails').magnificPopup('open', 0);
+        return false;
+      });
+    }
+  });
    $(document).ready(function() {     
    	$('.thumbnails').magnificPopup({
    		delegate: 'a.elevatezoom-gallery',
